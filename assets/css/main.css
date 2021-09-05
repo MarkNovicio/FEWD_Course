@@ -44,3 +44,14 @@ div.background {
 p.p-tag{
     margin-bottom: 0px;
 }
+
+ul { list-style: none; } /* Remove default bullets */
+
+li.goal-list::before {
+    content: "\2713"; /* Unicode bullet symbol */
+    color: blue;  /* Bullet color */
+	
+	/* Optional tweaks */
+    font-weight: bolder;
+    padding-right: 10px;
+}
