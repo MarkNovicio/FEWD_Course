@@ -55,3 +55,14 @@ li.goal-list::before {
     font-weight: bolder;
     padding-right: 10px;
 }
+
+.fewd {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column
+}
+.fewd-row {
+    display: flex;
+    justify-content: space-around;
+    
+}
