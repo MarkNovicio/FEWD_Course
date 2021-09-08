@@ -8,9 +8,26 @@
 }
 
 nav {
-    margin: auto;
-    color: red;
-    width: 50%;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul li {
+    text-align: center;
+}
+nav ul li:hover {
+    
+    color: blue;  /* Bullet color */
+	
+	/* Optional tweaks */
+    font-weight: bolder;
+   
 }
 
 p.title{
@@ -56,13 +73,29 @@ li.goal-list::before {
     padding-right: 10px;
 }
 
+.fewd-container-title{
+    text-align: center;
+    font-size: 2rem;
+    color: #2121aa;
+}
 .fewd {
     display: flex;
     justify-content: space-around;
     flex-direction: column
 }
-.fewd-row {
+.fewd-row1 {
     display: flex;
     justify-content: space-around;
     
+}
+
+.fewd-row2 {
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.fewd-row-content {
+    margin-right: 20px;
 }
