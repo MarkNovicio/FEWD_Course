@@ -10,6 +10,7 @@
 nav {
     color: #fff;
     margin-bottom: 50px;
+    font-weight: bolder;
 }
 
 nav ul {
@@ -26,7 +27,7 @@ nav ul li:hover {
     color: blue;  /* Bullet color */
 	
 	/* Optional tweaks */
-    font-weight: bolder;
+    
    
 }
 
@@ -86,16 +87,17 @@ li.goal-list::before {
 .fewd-row1 {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
     
 }
 
 .fewd-row2 {
-    margin-left: 30%;
     display: flex;
     justify-content: space-around;
     
 }
 
-.fewd-row-content {
+.fewd-content {
     margin-right: 20px;
+    width: 200px;
 }
