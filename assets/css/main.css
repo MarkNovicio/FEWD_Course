@@ -7,20 +7,52 @@
     height: 600px;
 }
 
+.nav-container{
+    display: flex;
+    justify-content: space-between
+}
+
+.ark-logo-wrapper {
+height: 80px;
+width: 80px;
+border-radius: 50%;
+background: #000;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+}
+
+.ark-logo p{
+    font-size: 21px;
+    font-style: italic;
+    height: 100%;
+    line-height: 1.25;
+    padding: 0;
+ 
+}
+
 nav {
     color: #fff;
     margin-bottom: 50px;
     font-weight: bolder;
+    margin-right:10px;
+    padding: 0px;
+    display: flex;
+align-items: center;
+
 }
 
 nav ul {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px
 }
 
 nav ul li {
     text-align: center;
+    padding: 0px 10px;
 }
 nav ul li:hover {
     
