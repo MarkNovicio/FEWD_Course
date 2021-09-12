@@ -7,6 +7,9 @@
     height: 600px;
 }
 
+.data-container li.btn{
+    color: #fff;
+}
 
 .nav-container{
     display: flex;
