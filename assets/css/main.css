@@ -10,6 +10,7 @@
 .data-container li.btn{
     color: #fff;
     font-weight: bolder;
+    margin-right: 10px;
 }
 
 .nav-container{
