@@ -144,5 +144,9 @@ li.goal-list::before {
 
 .fewd-row-content:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-    background-color: #4e4eb9
+    background-color: #dbdbe9
+  }
+
+  .fewd-content h3:hover {
+    font-size: 2rem;
   }
