@@ -143,10 +143,17 @@ li.goal-list::before {
     padding: 5px 5px 0px 5px;
 }
 
+.fewd-container {
+    background: rgb(234,247,246);
+    background: linear-gradient(180deg, rgba(234,247,246,1) 0%, rgba(179,240,235,1) 52%, rgba(146,195,188,1) 100%);
+margin: 0px;    
+}
 .fewd-row-content:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-    background-color: #dbdbe9
-  }
+ 
+    background: rgb(226,246,244);
+    background: linear-gradient(303deg, rgba(226,246,244,1) 0%, rgba(234,247,246,1) 28%, rgba(254,254,254,1) 100%);
+ }
 
   .fewd-content h3:hover {
     font-size: 2rem;
