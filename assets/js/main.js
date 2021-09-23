@@ -1,22 +1,21 @@
 
-const mouseTargetEnter = document.getElementsByClassName('fewd-content')
+/*const mouseTargetEnter = document.querySelector('.fewd-content p')
 mouseTargetEnter.addEventListener('mouseenter', e => {
-    let length = mouseTargetEnter.length;
-    console.log(mouseTargetEnter)
-    for(let i= 0; i <length; i ++){
-        mouseTargetEnter[i].style.fontSize = '1.2em';
+        mouseTargetEnter.style.fontSize = '1.2em';
+        const length = mouseTargetEnter.length;
         console.log("mouse enter works")
-    }
+        console.log(mouseTargetEnter)
+    });
     
-  });
+
 
   const mouseTargetExit = document.querySelector('.fewd-content p')
   mouseTargetExit.addEventListener('mouseleave', e => {
     mouseTargetExit.style.fontSize = '1.0em';
     });
+*/
 
 /*
-
 function increaseTitleSize() {
 	window.addEventListener(
 	  "mouseover",
@@ -26,7 +25,7 @@ function increaseTitleSize() {
 			
 			//console.log(document.getElementsByClassName("signin-messages-container"))
             const mouseTargetEnter = document.getElementsByClassName('fewd-content')
-		    document.mouseTargetEnter[0].style.fontSize = "x-large" //getElementsByClassName("signin-messages-container")  
+		    document.mouseTargetEnter.style.fontSize = "x-large" //getElementsByClassName("signin-messages-container")  
 		  //delivers a nodeList.
 		}
 		  this.console.log("selectedElement works!!")})}
@@ -48,4 +47,5 @@ function increaseTitleSize() {
                   this.console.log("mouse out works!!")})}
                      
           decreaseTitleSize()
-         */
+         
+*/
