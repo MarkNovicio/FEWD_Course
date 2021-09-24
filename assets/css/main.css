@@ -7,6 +7,11 @@
     height: 600px;
 }
 
+.background-color {
+    background-color: rgba(44, 44, 44, 0.6);
+    height: 600px;
+}
+
 .data-container li.btn{
     color: #fff;
     font-weight: bolder;
@@ -126,8 +131,9 @@ li.goal-list::before {
 .fewd-row2 {
     display: flex;
     justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
     
 }
 
