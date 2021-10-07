@@ -47,10 +47,26 @@
 /*# sourceMappingURL=styles.css.map */
 
 .svg-bg{
-  background: url(../images/javascript.svg) no-repeat;
+  
   width: 45px;
   height: 45px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.js {
+  background: url(../images/javascript.svg) no-repeat;
+}
+
+.css {
+  background: url(../images/css.svg) no-repeat;
+}
+
+.html{
+  background: url(../images/html.svg) no-repeat;
+}
+
+.git {
+  background: url(../images/git.svg) no-repeat;
 }
