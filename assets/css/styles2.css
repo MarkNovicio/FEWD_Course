@@ -45,12 +45,3 @@
   height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
-
-.svg-bg{
-  background: url(../images/javascript.svg) no-repeat;
-  width: 45px;
-  height: 45px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}

@@ -100,6 +100,9 @@ p.p-tag{
     margin-bottom: 0px;
 }
 
+.about-container, .goal {
+    margin-top: 55px;
+}
 ul { list-style: none; } /* Remove default bullets */
 
 li.goal-list::before {
@@ -161,6 +164,3 @@ margin: 0px;
     background: linear-gradient(303deg, rgba(226,246,244,1) 0%, rgba(234,247,246,1) 28%, rgba(254,254,254,1) 100%);
  }
 
-  .fewd-content h3:hover {
-    font-size: 2rem;
-  }
